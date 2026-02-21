@@ -2,6 +2,8 @@ import { describe, expect, test, vi } from "vitest"
 import * as dogController from "../controllers/dogController"
 
 describe("dogRoutes", () => {
+
+    //5. NEG, 2p
     test("neg: return error", async () => {
         const mocks = {
             status: vi.fn().mockReturnThis(),

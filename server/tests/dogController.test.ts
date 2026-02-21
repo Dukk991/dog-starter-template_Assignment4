@@ -3,6 +3,8 @@ import { getDogImage } from "../controllers/dogController"
 import * as dogService from "../services/dogService"
 
 describe("dogController", () => {
+
+    //3. POS, 2p
     test("pos: returns json", async () => {
         const mocks = {
             imageUrl: "http://images.dog.ceo/dog.jpg",

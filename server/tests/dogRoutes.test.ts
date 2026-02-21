@@ -3,6 +3,7 @@ import * as dogController from "../controllers/dogController"
 
 describe("dogRoutes", () => {
 
+    //4. POS, 2p
     test("pos: controller call", async () => {
         const mocks = {
             status: vi.fn().mockReturnThis(),
